@@ -1,0 +1,656 @@
+{
+ "title": "Email chăm sóc khách cho shop online",
+ "title_options": [
+  "Email chăm sóc khách cho shop online",
+  "Để AI soạn email chăm sóc, bạn chỉ việc duyệt",
+  "Ba email giữ chân khách mua lần đầu",
+  "Đúng người, đúng lúc, đúng một lời mời",
+  "Chăm sóc khách sau mua không tốn thời gian",
+  "AI Agent cho shop online: email chăm sóc",
+  "Biến khách mua một lần thành khách quen",
+  "4 bước để agent soạn email chăm sóc",
+  "Viết yêu cầu đúng, email khác hẳn",
+  "Cẩm nang email sau mua cho shop nhỏ"
+ ],
+ "subtitle": "Ba email nên có, quy trình 4 bước để agent soạn nháp và những lưu ý giữ lòng tin của khách",
+ "kicker": "Cẩm nang · Ví dụ mẫu SlimAI",
+ "audience": "Chủ shop online nhỏ, nhân viên chăm sóc khách hàng",
+ "series": "AI Agent cho bán hàng",
+ "credit": "author",
+ "source_credit": "Biên soạn từ ghi chú mẫu (nội dung giả lập)",
+ "noncommercial": false,
+ "intro": {
+  "paragraphs": [
+   "Nhiều shop online có khách **mua một lần rồi thôi** vì không ai làm email chăm sóc sau mua.",
+   "Cẩm nang mẫu này cho thấy cách để agent soạn sẵn email, người phụ trách chỉ việc duyệt. Số liệu trong tài liệu là **ví dụ giả định**."
+  ],
+  "for_whom": [
+   "Chủ shop online nhỏ",
+   "Nhân viên chăm sóc khách hàng"
+  ],
+  "how_to_read": "Đọc chương 1 để thấy vấn đề, chương 2–3 để làm theo, chương 4 trước khi dùng thật."
+ },
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Vì sao email chăm sóc khách ít ai làm",
+   "lead": "Không phải vì khó, mà vì tốn thời gian và AI viết chưa đúng ý",
+   "focus": [],
+   "image_id": null,
+   "sections": [
+    {
+     "heading": "Khách mua một lần rồi thôi",
+     "blocks": [
+      {
+       "text": "Nhiều shop online có lượng khách **mua một lần rồi thôi**. Email chăm sóc sau mua gần như không ai làm vì không có thời gian.",
+       "title": null,
+       "tone": null,
+       "items": null,
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "p"
+      },
+      {
+       "text": null,
+       "title": null,
+       "tone": null,
+       "items": [
+        "Viết tay từng email, mỗi email một kiểu",
+        "Hay quên gửi khi đơn nhiều",
+        "Dùng AI thì ra email chung chung, khách không mở"
+       ],
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "bullets"
+      }
+     ]
+    },
+    {
+     "heading": "Giao việc cho AI quá ngắn",
+     "blocks": [
+      {
+       "text": "Nguyên nhân chính: chỉ gõ \"viết email chăm sóc khách\" mà **không nói khách là ai**, đã mua gì và mình muốn khách làm gì sau khi đọc.",
+       "title": null,
+       "tone": null,
+       "items": null,
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "p"
+      },
+      {
+       "text": "Email tốt cần **đúng người, đúng lúc, đúng một lời mời**.",
+       "title": "Điểm mấu chốt",
+       "tone": "ai",
+       "items": null,
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "box"
+      }
+     ]
+    }
+   ],
+   "summary": [
+    "Email chăm sóc sau mua thường bị bỏ qua vì tốn thời gian",
+    "Yêu cầu quá ngắn khiến AI viết chung chung"
+   ],
+   "cta": {
+    "kicker": "Khoá học AI Agent cho người đi làm",
+    "title": "Để agent soạn sẵn, bạn chỉ việc duyệt",
+    "text": "Khoá học hướng dẫn **giao việc đúng cách** và kết nối agent với Gmail, Sheets.",
+    "button": "Xem khoá học →"
+   },
+   "slides": [
+    {
+     "subtitle": null,
+     "bullets": null,
+     "cards": [
+      {
+       "icon": "⏱️",
+       "title": "Không có thời gian",
+       "text": "Viết tay từng email, đơn nhiều là bỏ."
+      },
+      {
+       "icon": "🔁",
+       "title": "Hay quên gửi",
+       "text": "Không có lịch, không ai nhắc."
+      },
+      {
+       "icon": "🤖",
+       "title": "AI viết chung chung",
+       "text": "Đọc là biết máy viết, khách không mở."
+      }
+     ],
+     "steps": null,
+     "stats": null,
+     "left": null,
+     "right": null,
+     "quote": null,
+     "by": null,
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "cards",
+     "title": "Ba lý do email chăm sóc *bị bỏ quên*",
+     "notes": "Ba lý do thường gặp ở shop nhỏ."
+    },
+    {
+     "subtitle": null,
+     "bullets": null,
+     "cards": null,
+     "steps": null,
+     "stats": null,
+     "left": null,
+     "right": null,
+     "quote": "Chỉ gõ \"viết email chăm sóc khách\" thì AI không biết khách là ai, đã mua gì và mình muốn khách làm gì.",
+     "by": "Ghi chú buổi chia sẻ",
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "quote",
+     "title": "Vấn đề nằm ở *cách giao việc*",
+     "notes": "Nhấn mạnh nguyên nhân gốc trước khi đi vào giải pháp."
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "title": "Ba email nên có và quy trình 4 bước",
+   "lead": "Một lịch gửi đơn giản và một quy trình agent soạn, người duyệt",
+   "focus": [],
+   "image_id": null,
+   "sections": [
+    {
+     "heading": "Ba email theo thời điểm",
+     "blocks": [
+      {
+       "text": null,
+       "title": null,
+       "tone": null,
+       "items": null,
+       "header": [
+        "Email",
+        "Gửi khi",
+        "Nội dung"
+       ],
+       "rows": [
+        [
+         "Cảm ơn",
+         "Trong 24 giờ",
+         "Cảm ơn, hướng dẫn dùng, số hỗ trợ"
+        ],
+        [
+         "Hỏi thăm",
+         "Sau 7 ngày",
+         "Hỏi trải nghiệm, xin đánh giá"
+        ],
+        [
+         "Mời quay lại",
+         "Sau 30 ngày",
+         "Gợi ý sản phẩm liên quan"
+        ]
+       ],
+       "image_id": null,
+       "type": "table"
+      }
+     ]
+    },
+    {
+     "heading": "Quy trình 4 bước",
+     "blocks": [
+      {
+       "text": null,
+       "title": null,
+       "tone": null,
+       "items": [
+        "**Bước 1:** xuất danh sách đơn tuần trước ra Excel",
+        "**Bước 2:** viết một email mẫu thật tốt cho từng loại",
+        "**Bước 3:** agent chọn loại email theo số ngày, điền thông tin, soạn nháp",
+        "**Bước 4:** người phụ trách duyệt và bấm gửi"
+       ],
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "bullets"
+      },
+      {
+       "text": "Agent chỉ **soạn nháp**; người phụ trách luôn là người bấm gửi.",
+       "title": "Không tự gửi",
+       "tone": "warn",
+       "items": null,
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "box"
+      }
+     ]
+    }
+   ],
+   "summary": [
+    "Ba email: cảm ơn (24h), hỏi thăm (7 ngày), mời quay lại (30 ngày)",
+    "Agent soạn nháp, người duyệt và gửi"
+   ],
+   "cta": {
+    "kicker": "Khoá học AI Agent cho người đi làm",
+    "title": "Lên lịch cho agent tự soạn mỗi tuần",
+    "text": "Học cách **tự động hoá theo lịch** mà vẫn giữ bước duyệt của con người.",
+    "button": "Xem khoá học →"
+   },
+   "slides": [
+    {
+     "subtitle": null,
+     "bullets": null,
+     "cards": [
+      {
+       "icon": "🙏",
+       "title": "Cảm ơn · 24 giờ",
+       "text": "Cảm ơn, hướng dẫn dùng sản phẩm, số hỗ trợ."
+      },
+      {
+       "icon": "💬",
+       "title": "Hỏi thăm · 7 ngày",
+       "text": "Hỏi trải nghiệm, xin một câu đánh giá."
+      },
+      {
+       "icon": "🎁",
+       "title": "Mời quay lại · 30 ngày",
+       "text": "Gợi ý sản phẩm liên quan món đã mua."
+      }
+     ],
+     "steps": null,
+     "stats": null,
+     "left": null,
+     "right": null,
+     "quote": null,
+     "by": null,
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "cards",
+     "title": "Ba email theo *đúng thời điểm*",
+     "notes": "Mỗi email một mục đích, gửi đúng lúc."
+    },
+    {
+     "subtitle": "Agent *không tự gửi*.",
+     "bullets": null,
+     "cards": null,
+     "steps": [
+      {
+       "title": "Xuất danh sách",
+       "text": "Đơn tuần trước ra Excel"
+      },
+      {
+       "title": "Email mẫu",
+       "text": "Một mẫu tốt cho từng loại"
+      },
+      {
+       "title": "Agent soạn nháp",
+       "text": "Chọn loại theo số ngày, điền thông tin"
+      },
+      {
+       "title": "Duyệt và gửi",
+       "text": "Người phụ trách bấm gửi"
+      }
+     ],
+     "stats": null,
+     "left": null,
+     "right": null,
+     "quote": null,
+     "by": null,
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "steps",
+     "title": "Quy trình *4 bước* agent soạn, người duyệt",
+     "notes": "Đi tuần tự, agent không bao giờ tự gửi."
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "title": "Viết yêu cầu đúng và đo thời gian",
+   "lead": "Bốn thông tin làm email cụ thể, và cách đo phần thời gian lấy lại",
+   "focus": [],
+   "image_id": null,
+   "sections": [
+    {
+     "heading": "Bốn thông tin cần có",
+     "blocks": [
+      {
+       "text": null,
+       "title": null,
+       "tone": null,
+       "items": [
+        "Khách là ai: mua gì, khi nào",
+        "Mục đích email: cảm ơn, xin đánh giá hay mời quay lại",
+        "Giọng văn của shop: thân thiện, xưng \"shop\", gọi \"bạn\"",
+        "Độ dài dưới 120 chữ, một lời kêu gọi duy nhất"
+       ],
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "bullets"
+      }
+     ]
+    },
+    {
+     "heading": "Thời gian trước và sau",
+     "blocks": [
+      {
+       "text": "Số liệu dưới đây là **ví dụ giả định để minh hoạ**, cần đo thật ở từng shop.",
+       "title": "Ví dụ giả định",
+       "tone": "warn",
+       "items": null,
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "box"
+      },
+      {
+       "text": null,
+       "title": null,
+       "tone": null,
+       "items": null,
+       "header": [
+        "Việc",
+        "Viết tay (phút)",
+        "Có agent (phút)"
+       ],
+       "rows": [
+        [
+         "20 email cảm ơn",
+         "60",
+         "10 (duyệt nháp)"
+        ],
+        [
+         "20 email hỏi thăm",
+         "50",
+         "8 (duyệt nháp)"
+        ],
+        [
+         "20 email mời quay lại",
+         "80",
+         "12 (duyệt nháp)"
+        ]
+       ],
+       "image_id": null,
+       "type": "table"
+      },
+      {
+       "text": "Nhóm tự tính: nếu đúng như ví dụ, mỗi tuần tiết kiệm khoảng **2,5 giờ** cho 60 email.",
+       "title": null,
+       "tone": null,
+       "items": null,
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "p"
+      }
+     ]
+    }
+   ],
+   "summary": [
+    "Yêu cầu đủ 4 thông tin cho email cụ thể",
+    "Ví dụ giả định: khoảng 2,5 giờ mỗi tuần cho 60 email"
+   ],
+   "cta": {
+    "kicker": "Khoá học AI Agent cho người đi làm",
+    "title": "Đóng gói yêu cầu thành skill dùng lại",
+    "text": "Viết yêu cầu một lần, **đóng gói thành skill** và dùng mỗi tuần.",
+    "button": "Xem khoá học →"
+   },
+   "slides": [
+    {
+     "subtitle": null,
+     "bullets": null,
+     "cards": null,
+     "steps": null,
+     "stats": null,
+     "left": {
+      "title": "Yêu cầu thiếu",
+      "items": [
+       "\"Viết email chăm sóc khách\"",
+       "Không biết khách là ai",
+       "Email chung chung"
+      ]
+     },
+     "right": {
+      "title": "Yêu cầu đủ",
+      "items": [
+       "Chị Lan, nồi chiên, 7 ngày trước",
+       "Xin một câu đánh giá",
+       "Thân thiện, dưới 120 chữ"
+      ]
+     },
+     "quote": null,
+     "by": null,
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "compare",
+     "title": "Thêm *bốn thông tin*, email khác hẳn",
+     "notes": "So sánh yêu cầu thiếu và đủ."
+    },
+    {
+     "subtitle": "*Ví dụ giả định* để minh hoạ, cần đo thật.",
+     "bullets": null,
+     "cards": null,
+     "steps": null,
+     "stats": null,
+     "left": null,
+     "right": null,
+     "quote": null,
+     "by": null,
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": [
+      "Việc",
+      "Viết tay → có agent",
+      "Ghi chú"
+     ],
+     "rows": [
+      [
+       "20 email cảm ơn",
+       "60 → 10 phút",
+       "Duyệt nháp"
+      ],
+      [
+       "20 email hỏi thăm",
+       "50 → 8 phút",
+       "Duyệt nháp"
+      ],
+      [
+       "20 email mời quay lại",
+       "80 → 12 phút",
+       "Duyệt nháp"
+      ]
+     ],
+     "layout": "table",
+     "title": "Thời gian *trước và sau* khi có agent",
+     "notes": "Nhấn mạnh đây là ví dụ giả định."
+    },
+    {
+     "subtitle": "*Ví dụ giả định*: cần đo thật ở từng shop.",
+     "bullets": null,
+     "cards": null,
+     "steps": null,
+     "stats": [
+      {
+       "value": "2,5h",
+       "label": "tiết kiệm mỗi tuần cho 60 email (ví dụ giả định)"
+      },
+      {
+       "value": "80→12′",
+       "label": "phút cho 20 email mời quay lại (giả định)"
+      }
+     ],
+     "left": null,
+     "right": null,
+     "quote": null,
+     "by": null,
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "stats",
+     "title": "Mỗi tuần lấy lại *2,5 giờ*",
+     "notes": "Con số nhóm tự tính từ ví dụ giả định."
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "title": "Lưu ý khi để agent soạn email",
+   "lead": "Ba điều không được bỏ qua để giữ lòng tin của khách",
+   "focus": [],
+   "image_id": null,
+   "sections": [
+    {
+     "heading": "Ba lưu ý",
+     "blocks": [
+      {
+       "text": null,
+       "title": null,
+       "tone": null,
+       "items": null,
+       "header": [
+        "Lưu ý",
+        "Cách làm"
+       ],
+       "rows": [
+        [
+         "Khách chưa đồng ý nhận thư",
+         "Không gửi email"
+        ],
+        [
+         "Agent tự gửi",
+         "Luôn có người duyệt"
+        ],
+        [
+         "Thông tin nhạy cảm",
+         "Không đưa thanh toán, địa chỉ chi tiết vào prompt"
+        ]
+       ],
+       "image_id": null,
+       "type": "table"
+      },
+      {
+       "text": "Email chăm sóc không cần dài, chỉ cần **đúng người, đúng lúc, đúng một lời mời**.",
+       "title": "Câu chốt",
+       "tone": "sum",
+       "items": null,
+       "header": null,
+       "rows": null,
+       "image_id": null,
+       "type": "box"
+      }
+     ]
+    }
+   ],
+   "summary": [
+    "Chỉ gửi cho khách đã đồng ý, luôn có người duyệt, bảo vệ thông tin nhạy cảm"
+   ],
+   "cta": {
+    "kicker": "Khoá học AI Agent cho người đi làm",
+    "title": "Tự động hoá mà vẫn kiểm soát được",
+    "text": "Học cách **đặt bước phê duyệt** trước mọi hành động quan trọng.",
+    "button": "Xem khoá học →"
+   },
+   "slides": [
+    {
+     "subtitle": null,
+     "bullets": [
+      "Chỉ gửi cho khách **đã đồng ý** nhận thư",
+      "Agent soạn nháp, **người duyệt** bấm gửi",
+      "Không đưa **thông tin thanh toán, địa chỉ chi tiết** vào prompt"
+     ],
+     "cards": null,
+     "steps": null,
+     "stats": null,
+     "left": null,
+     "right": null,
+     "quote": null,
+     "by": null,
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "bullets",
+     "title": "Ba điều *không được* bỏ qua",
+     "notes": "Ba lưu ý bắt buộc trước khi dùng thật."
+    },
+    {
+     "subtitle": null,
+     "bullets": null,
+     "cards": null,
+     "steps": null,
+     "stats": null,
+     "left": null,
+     "right": null,
+     "quote": "Email chăm sóc không cần dài, chỉ cần đúng người, đúng lúc, đúng một lời mời.",
+     "by": "Câu chốt buổi chia sẻ",
+     "prompt": null,
+     "image_id": null,
+     "caption": null,
+     "header": null,
+     "rows": null,
+     "layout": "quote",
+     "title": "Đúng người, đúng lúc, *đúng một lời mời*",
+     "notes": "Câu chốt của buổi."
+    }
+   ]
+  }
+ ],
+ "appendix": [
+  {
+   "title": "Phụ lục A · Mẫu yêu cầu email hỏi thăm",
+   "blocks": [
+    {
+     "text": "Điền vào chỗ trong [ngoặc vuông].",
+     "title": null,
+     "tone": null,
+     "items": null,
+     "header": null,
+     "rows": null,
+     "image_id": null,
+     "type": "p"
+    },
+    {
+     "text": "Viết email hỏi thăm [tên khách], đã mua [sản phẩm] [số ngày] ngày trước.\nMục đích: xin khách một câu đánh giá.\nGiọng văn: thân thiện, xưng \"shop\", gọi \"bạn\".\nĐộ dài: dưới 120 chữ, một lời kêu gọi duy nhất.",
+     "title": "Mẫu yêu cầu",
+     "tone": null,
+     "items": null,
+     "header": null,
+     "rows": null,
+     "image_id": null,
+     "type": "prompt"
+    }
+   ]
+  }
+ ],
+ "cover_image_ids": [],
+ "palette": null,
+ "palette_question": null,
+ "warnings": [
+  "Nội dung và số liệu là ví dụ giả lập để chạy thử skill.",
+  "Nguồn không có ảnh: slide và ebook dùng bố cục chữ, thẻ, sơ đồ."
+ ],
+ "course_enabled": true,
+ "color_wish": null
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Agent tạo Slide, Ebook và Landing page"
+  short_description: "Tài liệu thô → bộ slide PPTX/PDF có Morph, ebook A4 và landing page có form, cùng một phong cách SlimAI"
+  brand_color: "#2F6BFF"
+  default_prompt: "Dùng $slide-ebook-agent biến tài liệu này thành bộ slide, ebook và landing page theo phong cách SlimAI."

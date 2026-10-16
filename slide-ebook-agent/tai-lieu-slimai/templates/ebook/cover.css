@@ -1,0 +1,18 @@
+/* Bìa ebook SlimAI: nền tối, mosaic ảnh xoay nghiêng (hoặc 1 poster), logo trái trên có link */
+@page{size:A4;margin:0}
+.cover{width:210mm;height:297mm;position:relative;overflow:hidden;background:#070d1f;color:#fff}
+.mosaic{position:absolute;inset:0;display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:74.25mm;gap:2mm;transform:rotate(-8deg) scale(1.28);transform-origin:center}
+.mosaic img{width:100%;height:100%;object-fit:cover}
+.poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,13,31,.55) 0%,rgba(7,13,31,.25) 30%,rgba(7,13,31,.92) 58%,#070d1f 80%)}
+.top{position:absolute;top:16mm;left:18mm;right:18mm;display:flex;align-items:center;gap:8pt;color:#fff;text-decoration:none}
+.top img{height:30pt;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
+.top span{font-size:22pt;font-weight:800;color:#fff}
+.top em{margin-left:auto;font-style:normal;font-size:9pt;letter-spacing:2pt;text-transform:uppercase;border:1px solid rgba(255,255,255,.5);border-radius:20pt;padding:3pt 10pt;background:rgba(7,13,31,.4);color:#fff}
+.main{position:absolute;left:18mm;right:18mm;bottom:40mm}
+.kicker{font-size:10pt;letter-spacing:3pt;text-transform:uppercase;color:#9fe3ff;font-weight:600}
+.cover h1{color:#fff;font-size:40pt;line-height:1.08;margin:8pt 0 10pt;font-weight:800}
+.main p{color:#d9e2f5;font-size:12.5pt;text-align:left;margin:0 0 14pt}
+.main .bar{height:5pt;width:90mm;background:var(--grad);border-radius:4pt;margin-bottom:14pt}
+.by{font-size:11pt;color:#fff}.by b{color:#9fe3ff}.by span{font-size:9pt;color:#aab6d3}
+.foot{position:absolute;bottom:14mm;left:18mm;right:18mm;font-size:13pt;font-weight:700;background:var(--grad);-webkit-background-clip:text;color:transparent}

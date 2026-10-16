@@ -1,0 +1,73 @@
+{
+  "_note": "Nguồn dữ liệu thương hiệu DUY NHẤT cho mọi tài liệu SlimAI (ebook, bản dịch PDF, báo giá). Sửa ở đây, mọi script đọc từ đây.",
+  "name": "SlimAI",
+  "site": "https://ai.slim.vn",
+  "site_label": "ai.slim.vn",
+  "slogan": "Tối ưu · Tự động · Tăng trưởng",
+  "slogan_colors": ["#e8318a", "#12a5d6", "#2fae5e"],
+  "credit": {
+    "translate": "Biên dịch bởi SlimAI",
+    "compile": "Sưu tầm và biên soạn lại bởi SlimAI",
+    "author": "Biên soạn bởi SlimAI"
+  },
+  "logos": {
+    "slimai": {"file": "logos/slimai.png", "url": "https://ai.slim.vn/uploads/upload/mig_37637ef12e8e.png", "link": "https://ai.slim.vn"},
+    "slimai_cover": {"file": "logos/slimai-cover.png", "url": "https://ai.slim.vn/uploads/upload/6a2eee774bf7e_1.png", "link": "https://ai.slim.vn"},
+    "slimai_white": {"file": "logos/slimai-white.png", "note": "chữ trắng, dùng trên nền tối", "link": "https://ai.slim.vn"},
+    "slimai_icon": {"file": "logos/slimai-icon.png", "note": "chỉ icon vuông, dùng ở header", "link": "https://ai.slim.vn"},
+    "slimcrm": {"file": "logos/slimcrm.png", "url": "https://slimcrm.vn/uploads/upload/mig_46e4e3a91396.png", "link": "https://slimcrm.vn"},
+    "slimemail": {"file": "logos/slimemail.png", "url": "https://slimemail.vn/uploads/migrate/slimemail.vn/img/logoslimemail-47849ebc4c33.png", "link": "https://slimemail.vn"}
+  },
+  "ecosystem": [
+    {"key": "slimai", "name": "SlimAI", "label": "ai.slim.vn", "link": "https://ai.slim.vn", "desc": "AI Agent Agency: tư vấn, đào tạo và triển khai AI cho doanh nghiệp."},
+    {"key": "slimcrm", "name": "SlimCRM", "label": "slimcrm.vn", "link": "https://slimcrm.vn", "desc": "Phần mềm AI CRM quản lý khách hàng và bán hàng."},
+    {"key": "slimemail", "name": "SlimEmail", "label": "slimemail.vn", "link": "https://slimemail.vn", "desc": "Email marketing ứng dụng AI."}
+  ],
+  "social": [
+    {"key": "facebook", "name": "Facebook", "color": "#0866FF", "link": "https://www.facebook.com/ai.slim.vn"},
+    {"key": "linkedin", "name": "LinkedIn", "color": "#0A66C2", "link": "https://www.linkedin.com/company/slimai-vietnam/"},
+    {"key": "youtube", "name": "YouTube", "color": "#FF0000", "link": "https://www.youtube.com/@SlimAiLab"},
+    {"key": "tiktok", "name": "TikTok", "color": "#000000", "link": "https://www.tiktok.com/@slimai.x.think"},
+    {"key": "zalo", "name": "Zalo", "color": "#0068FF", "link": "https://slim.vn/link/zalo", "boxed": true}
+  ],
+  "course": {
+    "name": "Khoá học AI Agent cho người đi làm",
+    "url": "https://ai.slim.vn/khoa-hoc-ai-agent",
+    "url_label": "ai.slim.vn/khoa-hoc-ai-agent",
+    "audience": "Dành cho nhân viên văn phòng, marketer, sales, quản lý và chủ doanh nghiệp nhỏ muốn tiết kiệm thời gian mỗi ngày bằng AI.",
+    "modules": [
+      {
+        "title": "Kỹ năng nền và kiểm soát AI Agent",
+        "sub": "Giao việc đúng cách, kết nối công cụ, tự động hoá mà vẫn kiểm soát được",
+        "items": [
+          "<b>Giao việc cho agent:</b> viết yêu cầu rõ ràng, cung cấp đủ ngữ cảnh.",
+          "<b>Chọn đúng công cụ và mô hình</b> cho từng loại việc, kiểm soát chi phí.",
+          "Dùng <b>file ngữ cảnh và bộ nhớ dự án</b> để agent hiểu công việc của bạn.",
+          "<b>Đóng gói quy trình thành skill</b> tái sử dụng được.",
+          "<b>Kết nối agent với công cụ quen dùng:</b> Gmail, Drive, Lịch, Notion, CRM.",
+          "<b>Tự động hoá:</b> lên lịch cho agent tự chạy, chia việc lớn cho nhiều subagent.",
+          "<b>Kiểm soát rủi ro:</b> đặt bước phê duyệt trước các hành động quan trọng, xác định việc nào agent tự làm và việc nào phải chuyển cho con người.",
+          "<b>Kiểm thử trước khi dùng thật:</b> thử agent với cả tình huống bình thường lẫn bất thường, đọc nhật ký để phát hiện sai sót.",
+          "<b>Đo hiệu quả trước và sau</b> để biết agent có thực sự giúp ích hay không."
+        ]
+      }
+    ],
+    "usecases_title": "Các tình huống ứng dụng vào công việc thực tế",
+    "usecases_sub": "Mang về những quy trình dùng được ngay",
+    "usecases": [
+      ["📥", "Xử lý thông tin hằng ngày", "Phân loại email và soạn sẵn trả lời, sắp xếp file, lập biên bản họp rồi phân công việc."],
+      ["📊", "Báo cáo tự động", "Tổng hợp báo cáo mỗi sáng, gửi tóm tắt qua Zalo hoặc email."],
+      ["✍️", "Sản xuất nội dung", "Biến một nội dung gốc thành bài blog, Facebook, LinkedIn và kịch bản video; làm slide, ebook; dịch và làm phụ đề."],
+      ["🔎", "Nghiên cứu và sàng lọc", "Tìm và chấm điểm khách hàng tiềm năng, lọc CV, phân tích thị trường, đều có kèm bằng chứng."],
+      ["🧾", "Xử lý dữ liệu", "Đọc hoá đơn rồi điền vào Excel, làm sạch và đối chiếu dữ liệu, nhập sản phẩm lên sàn."],
+      ["🤝", "Bán hàng và chăm sóc khách", "Cập nhật CRM, soạn email chăm sóc, nhắc việc; chatbot hỏi đáp từ tài liệu nội bộ."],
+      ["📣", "Vận hành mạng xã hội", "Đăng bài, nhắn tin trên Facebook và Zalo, luôn có bước duyệt để tránh bị khoá tài khoản."]
+    ]
+  },
+  "colors": {
+    "navy": "#0b2a5b", "ink": "#1d2433", "muted": "#5b6475", "line": "#e3e7ef",
+    "pink": "#e8318a", "purple": "#8a4dea", "cyan": "#12b5e5", "green": "#3cc26b", "yellow": "#f6c21c",
+    "gradient": "linear-gradient(90deg,#e8318a,#8a4dea 30%,#12b5e5 60%,#3cc26b 80%,#f6c21c)"
+  },
+  "fonts": {"body": "Be Vietnam Pro", "mono": "JetBrains Mono"}
+}

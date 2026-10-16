@@ -1,0 +1,23 @@
+{
+  "title": "Ngôn Ngữ Điện Ảnh Cho AI Tạo Ảnh",
+  "output": "~/Downloads/SlimAI - Ten Tai Lieu (Ebook).pdf",
+  "series": "Kiến thức nền AI",
+  "year": 2026,
+  "cover": {
+    "kicker": "Cẩm nang · Midjourney &amp; AI tạo ảnh",
+    "title_html": "Ngôn Ngữ Điện Ảnh<br>Cho AI Tạo Ảnh",
+    "subtitle_html": "Phơi sáng · Góc máy · Ống kính · Màu sắc · Phim · Ánh sáng<br>và cách viết prompt như một đạo diễn hình ảnh",
+    "credit": "author",
+    "source": "Dựa trên chuỗi bài giảng của [tác giả gốc]",
+    "images": ["img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg", "img/sample.jpg"]
+  },
+  "course": {
+    "enabled": true,
+    "kicker": "Bước tiếp theo sau cuốn cẩm nang này",
+    "intro": "Bạn vừa học cách “ra lệnh” cho AI tạo ảnh như một đạo diễn hình ảnh. Bước tiếp theo là để AI <b style=\"color:#ffd166\">làm việc thay bạn</b>: tự nghiên cứu, soạn nội dung, xử lý dữ liệu và chạy các quy trình lặp lại mỗi ngày.",
+    "final_title": "Đăng ký tìm hiểu khoá học",
+    "final_text": "Quét mã QR hoặc bấm vào nút bên dưới để xem lộ trình và đăng ký."
+  },
+  "eco_follow": "Theo dõi SlimAI để nhận thêm tài liệu <b>Kiến thức nền AI</b>",
+  "footer_note": "Tài liệu học tập, phi thương mại."
+}
